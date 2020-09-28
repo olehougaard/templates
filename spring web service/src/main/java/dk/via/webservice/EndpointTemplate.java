@@ -8,7 +8,7 @@ import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 @Endpoint
 public class EndpointTemplate {
     /*
-    @PayloadRoot(namespace = WebServiceConfig.NAMESPACE_URI, localPart = "method")
+    @PayloadRoot(namespace = WebServiceConfig.NAMESPACE_URI, localPart = "MethodRequest")
     @ResponsePayload
     public MethodResponse method(@RequestPayload MethodRequest request) {
         return null;
