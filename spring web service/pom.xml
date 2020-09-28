@@ -79,7 +79,7 @@
 				</executions>
 				<configuration>
 					<sources>
-						<source>${project.basedir}/src/main/resources/countries.xsd</source>
+						<source>${project.basedir}/src/main/resources/schema.xsd</source>
 					</sources>
 				</configuration>
 			</plugin>

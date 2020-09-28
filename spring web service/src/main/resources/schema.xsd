@@ -1,5 +1,5 @@
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://spring.io/guides/gs-producing-web-service"
-           targetNamespace="http://spring.io/guides/gs-producing-web-service" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://via.dk/web-service"
+           targetNamespace="http://via.dk/web-service" elementFormDefault="qualified">
     <xs:element name="MethodRequest">
         <xs:complexType>
             <xs:sequence>
@@ -19,7 +19,7 @@
     </xs:element>
 
     <!-- Domain types here. Example: -->
-    <xs:complexType name="country">
+    <xs:complexType name="money">
         <xs:sequence>
             <xs:element name="amount" type="xs:decimal"/>
             <xs:element name="currency" type="tns:currency"/>
